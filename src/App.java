@@ -1,6 +1,7 @@
 import java.lang.System.Logger;
 import java.util.Scanner;
 
+import models.Bike;
 import models.Motorcyclist;
 import utils.implementations.FileDatabaseManager;
 import utils.interfaces.DatabaseManager;
@@ -17,6 +18,8 @@ public class App {
       Scanner scanner = new Scanner(System.in);
 
       Motorcyclist motorcyclist = new Motorcyclist("Face");
+
+      motorcyclist.addBike(new Bike("Harlay Davidson", "650 MT", 2007, 150, 40, 6, 200));
 
       boolean n = false;
       while (n == false) {
