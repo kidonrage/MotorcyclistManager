@@ -1,11 +1,11 @@
-package utils.implementations;
+package utils.db.implementations;
 
 import java.util.Scanner;
 import java.io.FileReader;
 import java.io.FileWriter;
 
 import models.Motorcyclist;
-import utils.interfaces.DatabaseManager;
+import utils.db.interfaces.DatabaseManager;
 
 public class FileDatabaseManager implements DatabaseManager {
 

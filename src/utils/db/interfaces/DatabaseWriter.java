@@ -1,4 +1,4 @@
-package utils.interfaces;
+package utils.db.interfaces;
 
 import models.Motorcyclist;
 
